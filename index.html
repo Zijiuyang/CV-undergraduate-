@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zijiu Yang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #0779e4;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-info {
+            flex: 1;
+        }
+        .profile-info p {
+            margin: 5px 0;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Zijiu Yang</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="profile-section">
+                <img src="profile.jpg" alt="杨子玖的照片" class="profile-photo">
+                <div class="profile-info">
+                    <p><strong>姓名：</strong>杨子玖</p>
+                    <p><strong>学校：</strong>四川大学</p>
+                    <p><strong>学院：</strong>电子信息学院</p>
+                    <p><strong>专业：</strong>通信工程（卓越工程师班）</p>
+                    <p><strong>邮箱：</strong>yangzijiu@stu.scu.edu.cn</p>
+                    <p><strong>本科毕业时间：</strong>2025.6</p>
+                </div>
+            </div>
+
+            <h2>教育背景</h2>
+            <p><strong>必修加权均分与绩点：</strong>91.67/100 (3.89/4)</p>
+            <p><strong>专业排名：</strong>1/28</p>
+            <p><strong>CET-4 成绩：</strong>622</p>
+            <p><strong>CET-6 成绩：</strong>630</p>
+            <p><strong>主修课程与成绩：</strong></p>
+            <ul>
+                <li>微积分（Ⅰ）-1: 92/100</li>
+                <li>微积分（Ⅰ）-2: 92/100</li>
+                <li>线性代数: 100/100</li>
+                <li>信号与系统: 96/100</li>
+                <li>现代通信技术: 95/100</li>
+                <li>数字信号处理: 100/100</li>
+                <li>随机信号分析: 97/100</li>
+                <li>计算机通信与网络: 94/100</li>
+	<li>模拟电子技术: 97/100</li>
+            </ul>
+
+            <h2>科研经历</h2>
+            <p>在2023年正式参与四川大学图像信息研究所科研工作，主要专注于人工智能-计算机视觉（Computer Vision，CV）深度学习领域中的少样本目标检测，并在辅助研究中涉及图像超分辨率和图像质量评估方法。</p>
+            <p><strong>Papers：</strong></p>
+            <ul>
+                <li>
+                    <strong>Few-Shot Object Detection in Remote Sensing Images via Data Clearing and Stationary Meta-Learning （has been published in <i>Sensors</i>, participate as first author,doi:  https://doi.org/10.3390/s24123882)</strong>
+                    <p>我们提出了一种基于数据清理和稳态元学习的少样本目标检测方法。通过数据清理技术，少样本目标检测中的IAO问题被很好解决，检测器学习到的每个类别的知识将相对均衡。稳态元学习算法针对数据类内差距大的问题进行EMA综合知识归纳，使得支持集输出更加稳定，达到更好的辅助效果。</p>
+                </li>
+	<li>
+                    <strong>Efficient Meta-Learning Enabled Lightweight and Multiscale Few-Shot Object Detection in Remote Sensing Images（has been submitted to <i>IEEE Transactions on Geoscience and Remote Sensing</i>, participate as co-first author, arXiv: https://arxiv.org/abs/2404.18426)</strong>
+                    <p>我们开发了一种高效的元学习方法，用于轻量级多尺度的少样本目标检测。这种元学习方法专注于”元采样“，在以往的查询集/支持集特征融合结果中再次挑选有用的样本，加大对已有样本知识的挖掘。该方法在有限的样本量下实现对目标的准确检测，显著提升了少样本场景下目标检测的效率和精度。</p>
+                </li>
+                <li>
+                    <strong>Degradation Representation Guided Mixture-of-Experts for Real-World Image Super-Resolution（has been submitted to <i>ACM International Conference on Multimedia</i>, participate as Forth author, under rebuttal with scores of 2/3/4/5.)</strong>
+                    <p>我们提出了一种基于退化表征指导的专家混合模型，用于真实世界图像的超分辨率处理。通过构建多个专家模型，并使用退化表征来指导模型选择，我们实现了对低质量图像的高效超分辨率重建，提升图像的细节和视觉质量。</p>
+                </li>
+            </ul>
+
+             <h2>科研展望</h2>
+              <p>已经熟练掌握Python/Pytorch/Linux基础操作，有较为丰富的编程经验。对于深度学习有了深刻认识，并熟练运用。
+目前研究的领域为基于图像的计算机视觉处理，其数据源受到传感器、通信传输等因素影响，且数字图像能够带来的内涵知识的确有限，对于人工智能真正理解视觉规则仍有限制。自然语言处理、语言模型等可以与此结合，在双重语境下给予人工智能更切身实际的感知方式。
+</p>
+	
+            <h2>项目实战与竞赛</h2>
+            <ul>
+                <li>2022 基于等离子体的智能天线设计</li>
+                <li>2022 四川大学数学竞赛三等奖</li>
+                <li>2023“迷宫寻宝”智能小车设计</li>
+                <li>2023 全国大学生英语竞赛二等奖</li>
+            </ul>
+
+            <h2>发明专利</h2>
+            <p>“一种基于元采样的少样本目标检测方法”(202410512036.1)</p>
+            <p>“一种基于数据清理与稳态元学习的少样本目标检测方法”（202410512036.1）</p>
+        </div>
+    </div>
+</body>
+</html>
